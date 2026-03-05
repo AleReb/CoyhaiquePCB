@@ -1622,122 +1622,6 @@ type 0207, grid 7.5 mm</description>
 </package>
 </packages>
 </library>
-<library name="diy-modules">
-<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
-The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
-&lt;br&gt;
-By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
-&lt;br&gt;
-The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
-&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;center&gt;
-&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
-&lt;/center&gt;</description>
-<packages>
-<package name="RTC-DS3231-AT24C32">
-<description>&lt;b&gt;RTC Module with Battery and EEPROM&lt;/b&gt; based on &lt;b&gt;DS3231&lt;/b&gt; and &lt;b&gt;AT24C32&lt;/b&gt; chips</description>
-<wire x1="-19.304" y1="11.684" x2="19.304" y2="11.684" width="0.127" layer="21"/>
-<wire x1="19.05" y1="4.445" x2="19.05" y2="3.175" width="0.127" layer="21"/>
-<wire x1="19.05" y1="1.905" x2="19.05" y2="0.635" width="0.127" layer="21"/>
-<wire x1="19.05" y1="-0.635" x2="19.05" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="19.05" y1="-3.175" x2="19.05" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="19.304" y1="-11.684" x2="-19.304" y2="-11.684" width="0.127" layer="21"/>
-<hole x="-11.43" y="-9.525" drill="2.2"/>
-<hole x="-11.43" y="9.525" drill="2.2"/>
-<pad name="J1.1" x="-17.78" y="6.35" drill="1" shape="square"/>
-<pad name="J1.2" x="-17.78" y="3.81" drill="1"/>
-<pad name="J1.3" x="-17.78" y="1.27" drill="1"/>
-<pad name="J1.4" x="-17.78" y="-1.27" drill="1"/>
-<pad name="J1.5" x="-17.78" y="-3.81" drill="1"/>
-<pad name="J2.1" x="17.78" y="3.81" drill="1" shape="square"/>
-<pad name="J2.2" x="17.78" y="1.27" drill="1"/>
-<pad name="J2.3" x="17.78" y="-1.27" drill="1"/>
-<pad name="J2.4" x="17.78" y="-3.81" drill="1"/>
-<text x="0" y="12.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-12.7" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<pad name="J1.6" x="-17.78" y="-6.35" drill="1"/>
-<hole x="15.24" y="9.525" drill="2.2"/>
-<wire x1="-19.05" y1="-6.985" x2="-19.05" y2="-5.715" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-4.445" x2="-19.05" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-1.905" x2="-19.05" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="0.635" x2="-19.05" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="3.175" x2="-19.05" y2="4.445" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="5.715" x2="-19.05" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="6.985" x2="-18.415" y2="7.62" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="7.62" x2="-17.145" y2="7.62" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="7.62" x2="-16.51" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="6.985" x2="-16.51" y2="5.715" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="5.715" x2="-17.145" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="5.08" x2="-16.51" y2="4.445" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="4.445" x2="-16.51" y2="3.175" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="3.175" x2="-17.145" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="2.54" x2="-16.51" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="1.905" x2="-16.51" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="0.635" x2="-17.145" y2="0" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="0" x2="-16.51" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-0.635" x2="-16.51" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-1.905" x2="-17.145" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="-2.54" x2="-16.51" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-3.175" x2="-16.51" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-4.445" x2="-17.145" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="-5.08" x2="-16.51" y2="-5.715" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-5.715" x2="-16.51" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="-16.51" y1="-6.985" x2="-17.145" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-17.145" y1="-7.62" x2="-18.415" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="-7.62" x2="-19.05" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-5.715" x2="-18.415" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="-5.08" x2="-19.05" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-3.175" x2="-18.415" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="-2.54" x2="-19.05" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-0.635" x2="-18.415" y2="0" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="0" x2="-19.05" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="1.905" x2="-18.415" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="2.54" x2="-19.05" y2="3.175" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="4.445" x2="-18.415" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-18.415" y1="5.08" x2="-19.05" y2="5.715" width="0.127" layer="21"/>
-<wire x1="19.05" y1="-4.445" x2="18.415" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="18.415" y1="-5.08" x2="17.145" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="17.145" y1="-5.08" x2="16.51" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-4.445" x2="16.51" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-3.175" x2="17.145" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="17.145" y1="-2.54" x2="16.51" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-1.905" x2="16.51" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-0.635" x2="17.145" y2="0" width="0.127" layer="21"/>
-<wire x1="17.145" y1="0" x2="16.51" y2="0.635" width="0.127" layer="21"/>
-<wire x1="16.51" y1="0.635" x2="16.51" y2="1.905" width="0.127" layer="21"/>
-<wire x1="16.51" y1="1.905" x2="17.145" y2="2.54" width="0.127" layer="21"/>
-<wire x1="17.145" y1="2.54" x2="16.51" y2="3.175" width="0.127" layer="21"/>
-<wire x1="16.51" y1="3.175" x2="16.51" y2="4.445" width="0.127" layer="21"/>
-<wire x1="16.51" y1="4.445" x2="17.145" y2="5.08" width="0.127" layer="21"/>
-<wire x1="17.145" y1="5.08" x2="18.415" y2="5.08" width="0.127" layer="21"/>
-<wire x1="18.415" y1="5.08" x2="19.05" y2="4.445" width="0.127" layer="21"/>
-<wire x1="19.05" y1="3.175" x2="18.415" y2="2.54" width="0.127" layer="21"/>
-<wire x1="18.415" y1="2.54" x2="19.05" y2="1.905" width="0.127" layer="21"/>
-<wire x1="19.05" y1="0.635" x2="18.415" y2="0" width="0.127" layer="21"/>
-<wire x1="18.415" y1="0" x2="19.05" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="19.05" y1="-1.905" x2="18.415" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="18.415" y1="-2.54" x2="19.05" y2="-3.175" width="0.127" layer="21"/>
-<text x="-15.875" y="6.35" size="1.27" layer="21" align="center-left">32K</text>
-<text x="-15.875" y="3.81" size="1.27" layer="21" align="center-left">SQW</text>
-<text x="-15.875" y="1.27" size="1.27" layer="21" align="center-left">SCL</text>
-<text x="-15.875" y="-1.27" size="1.27" layer="21" align="center-left">SDA</text>
-<text x="-15.875" y="-3.81" size="1.27" layer="21" align="center-left">VCC</text>
-<text x="-15.875" y="-6.35" size="1.27" layer="21" align="center-left">GND</text>
-<text x="15.875" y="3.81" size="1.27" layer="21" align="center-right">SCL</text>
-<text x="15.875" y="1.27" size="1.27" layer="21" align="center-right">SDA</text>
-<text x="15.875" y="-1.27" size="1.27" layer="21" align="center-right">VCC</text>
-<text x="15.875" y="-3.81" size="1.27" layer="21" align="center-right">GND</text>
-<wire x1="-19.304" y1="11.684" x2="-19.304" y2="-11.684" width="0.127" layer="21"/>
-<wire x1="19.304" y1="11.684" x2="19.304" y2="-11.684" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2010,10 +1894,6 @@ design rules under a new name.</description>
 <element name="X9" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-04-PACKAGE-LONG-PAD" value="JST-XH-04-PIN-LONG-PAD" x="13.5" y="62.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.155" y="64.14" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="19.5025" y="58.2075" size="1.016" layer="27" ratio="10" rot="R180"/>
-</element>
-<element name="U$1" library="diy-modules" package="RTC-DS3231-AT24C32" value="RTC-DS3231-AT24C32" x="44" y="49.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="44" y="36.6" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="44" y="62" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="X7" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="btn0" x="94.7" y="56.5" smashed="yes">
 <attribute name="NAME" x="90.445" y="54.46" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -2505,18 +2385,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$8">
 <contactref element="XA1" pad="1"/>
-</signal>
-<signal name="VCC.1">
-<contactref element="U$1" pad="J1.5"/>
-</signal>
-<signal name="GND.2">
-<contactref element="U$1" pad="J2.4"/>
-</signal>
-<signal name="VCC.2">
-<contactref element="U$1" pad="J2.3"/>
-</signal>
-<signal name="GND.1">
-<contactref element="U$1" pad="J1.6"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
