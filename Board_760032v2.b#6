@@ -155,7 +155,6 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXl1ZGQxMTM4" projecturn="a.YnVzaW5lc3M6bXl1ZGQxMTM4IzIwMjMwMjAxNjA0ODAyMjI2" f3durn="urn:adsk.wipprod:dm.lineage:oRmKNFjGQbWyvUNQ8KXuFw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="19404064-584b-4c19-9928-5cd9b0143865" lastsyncedrevisionid="19404064-584b-4c19-9928-5cd9b0143865" lastboardhashguid="fa646523-aa3e-d09c-f8f7-1998d6fa6fd1" lastpushedtime="2026-03-05T17:36:45Z" linktopcb3d="true"/>
 <plain>
 <wire x1="116.123759375" y1="48.86" x2="116.023759375" y2="50.676240625" width="0.1" layer="20"/>
 <wire x1="116.023759375" y1="50.676240625" x2="94.7" y2="69.2" width="0.1" layer="20" curve="90"/>
@@ -1612,14 +1611,14 @@ type 0207, grid 7.5 mm</description>
 <rectangle x1="1.626190625" y1="1.89638125" x2="2.125" y2="2.77" layer="51"/>
 <rectangle x1="2.8789" y1="1.89756875" x2="3.375" y2="2.77" layer="51"/>
 <rectangle x1="4.12545" y1="1.895209375" x2="4.625" y2="2.77" layer="51"/>
-<pad name="1" x="4.375" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
-<pad name="2" x="3.125" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
-<pad name="3" x="1.875" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
-<pad name="4" x="0.625" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
-<pad name="5" x="-0.625" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
-<pad name="6" x="-1.875" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
-<pad name="7" x="-3.125" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90" first="yes"/>
-<pad name="8" x="-4.375" y="0.02" locked="yes" drill="0.4" diameter="0.8" shape="long" rot="R90"/>
+<pad name="1" x="4.375" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="2" x="3.125" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="3" x="1.875" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="4" x="0.625" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="5" x="-0.625" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="6" x="-1.875" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="7" x="-3.125" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
+<pad name="8" x="-4.375" y="0.02" drill="0.35" diameter="0.5969" shape="long" rot="R90"/>
 </package>
 </packages>
 </library>
@@ -1650,23 +1649,23 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="0.6mm"/>
-<param name="mdWirePad" value="0.6mm"/>
-<param name="mdWireVia" value="0.6mm"/>
-<param name="mdPadPad" value="0.6mm"/>
-<param name="mdPadVia" value="0.6mm"/>
-<param name="mdViaVia" value="0.6mm"/>
-<param name="mdSmdPad" value="0.2mm"/>
-<param name="mdSmdVia" value="0.2mm"/>
-<param name="mdSmdSmd" value="0.2mm"/>
+<param name="mdWireWire" value="0.8mm"/>
+<param name="mdWirePad" value="0.8mm"/>
+<param name="mdWireVia" value="0.8mm"/>
+<param name="mdPadPad" value="0.8mm"/>
+<param name="mdPadVia" value="0.8mm"/>
+<param name="mdViaVia" value="0.8mm"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="0.6mm"/>
-<param name="mdDrill" value="0.6mm"/>
+<param name="mdCopperDimension" value="0.4mm"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="0.6mm"/>
-<param name="msDrill" value="0.4mm"/>
-<param name="msMicroVia" value="0.2mm"/>
+<param name="msWidth" value="0.5mm"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -1675,11 +1674,11 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="0mil"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="0mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
@@ -1872,7 +1871,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="84.2" y="62.8" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=53851&amp;manufacturer=Molex&amp;part_name=53048-0810&amp;search_term=picoblade 1.25mm header rightangle 8way" x="84.2" y="62.8" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/53048-0810/Molex/view-part/?ref=snap" x="84.2" y="62.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="79.92238125" y="68.04816875" size="1.27061875" layer="27"/>
+<attribute name="VALUE" x="79.42238125" y="65.74816875" size="1.27061875" layer="27"/>
 </element>
 <element name="X8" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="JST-XH-02-PIN-LONG-PAD" x="85.1" y="50.5" smashed="yes">
 <attribute name="NAME" x="80.845" y="48.46" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -1969,8 +1968,9 @@ design rules under a new name.</description>
 <wire x1="12.23" y1="62.1" x2="12.5" y2="62.37" width="0.5" layer="16"/>
 <wire x1="81.125" y1="62.75" x2="81.075" y2="62.82" width="0.5" layer="16"/>
 <wire x1="86.25" y1="50.5" x2="86.37" y2="50.5" width="0.5" layer="16"/>
-<wire x1="81.1" y1="62.8" x2="81.095" y2="62.8" width="0.5" layer="16"/>
-<wire x1="81.075" y1="62.82" x2="81.095" y2="62.8" width="0.5" layer="16"/>
+<wire x1="81" y1="63" x2="81" y2="63.6" width="0.5" layer="16"/>
+<wire x1="81" y1="63" x2="81.059171875" y2="62.8579875" width="0.5" layer="16"/>
+<wire x1="81.059171875" y1="62.8579875" x2="81.075" y2="62.82" width="0.5" layer="16"/>
 <wire x1="48.13" y1="67.38" x2="47.23" y2="66.48" width="0.5" layer="16"/>
 <wire x1="54.384546875" y1="67.38" x2="48.13" y2="67.38" width="0.5" layer="16"/>
 <wire x1="47.23" y1="66.48" x2="47.23" y2="64.8" width="0.5" layer="16"/>
@@ -1985,6 +1985,7 @@ design rules under a new name.</description>
 <wire x1="12" y1="55.25" x2="12.23" y2="55.6" width="0.5" layer="16"/>
 <wire x1="19.715309375" y1="33.55375625" x2="19.715309375" y2="31.384690625" width="0.5" layer="16"/>
 <wire x1="19.715309375" y1="31.384690625" x2="20.3" y2="30.8" width="0.5" layer="16"/>
+<wire x1="80.904" y1="62.702815625" x2="81.059171875" y2="62.8579875" width="0.5" layer="16"/>
 <wire x1="19.076" y1="64.674" x2="20.4" y2="63.35" width="0.5" layer="16"/>
 <wire x1="20.8" y1="62.95" x2="20.4" y2="63.35" width="0.5" layer="16"/>
 <wire x1="86.25" y1="49.59544375" x2="79.70455625" y2="43.05" width="0.5" layer="16"/>
@@ -2005,11 +2006,10 @@ design rules under a new name.</description>
 <wire x1="7.878" y1="34.4465125" x2="11.5245125" y2="30.8" width="0.5" layer="16"/>
 <wire x1="77.2" y1="64.63455625" x2="77.2" y2="62.924375" width="0.5" layer="16"/>
 <wire x1="74.56055625" y1="67.274" x2="77.2" y2="64.63455625" width="0.5" layer="16"/>
-<wire x1="81.075" y1="62.82" x2="81.104" y2="62.791" width="0.5" layer="16"/>
-<wire x1="81.104" y1="62.791" x2="81.104" y2="61.578375" width="0.5" layer="16"/>
+<wire x1="80.904" y1="61.378375" x2="80.904" y2="62.702815625" width="0.5" layer="16"/>
 <wire x1="77.2" y1="62.924375" x2="79.212375" y2="60.912" width="0.5" layer="16"/>
 <wire x1="79.212375" y1="60.912" x2="80.437625" y2="60.912" width="0.5" layer="16"/>
-<wire x1="80.437625" y1="60.912" x2="81.104" y2="61.578375" width="0.5" layer="16"/>
+<wire x1="80.437625" y1="60.912" x2="80.904" y2="61.378375" width="0.5" layer="16"/>
 <wire x1="68.73" y1="64.7" x2="68.73" y2="65.48455625" width="0.5" layer="16"/>
 <wire x1="68.73" y1="65.48455625" x2="70.51944375" y2="67.274" width="0.5" layer="16"/>
 <wire x1="70.51944375" y1="67.274" x2="74.56055625" y2="67.274" width="0.5" layer="16"/>
@@ -2401,11 +2401,6 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
